@@ -2,4 +2,5 @@ import React from "react";
 import ReactDom from 'react-dom';
 import App from './App';
 
-ReactDom.render(<App/>, document.getElementById("root"))
+let one = <H1> CHANGE</H1>
+ReactDom.render(one, document.getElementById("root"))
